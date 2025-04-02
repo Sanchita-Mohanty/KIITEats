@@ -1,0 +1,68 @@
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.place-order-left {
+  flex: 2;
+  width:100%;
+  max-width: max(30%,500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.place-order-left  input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    outline-color: tomato;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.place-order-right {
+   max: 100%;
+  max-width: max(40%,500px);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-total.small-box {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 300px;
+}
+
+.multi-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100%; /* Match the full width of the container */
+  padding: 16px; /* Same padding as .cart-total.small-box */
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc; /* Match the border style */
+  border-radius: 8px; /* Match the border radius */
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
