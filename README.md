@@ -79,7 +79,9 @@ Before you begin, ensure you have the following installed:
    - The **Backend** server is under development and will be available soon. 🚧
 
 4. **Access the Website**:  
-   Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the frontend in action! 🔥
+  Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the frontend in action! 🔥
+
+   Alternatively, you can visit the live deployed version here: [KiitEats Live](https://kiit-eats.vercel.app/)
 
 ---
 
